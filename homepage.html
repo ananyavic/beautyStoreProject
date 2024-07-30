@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skincare Products - Home</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="homepage.css"> 
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <!-- <li><a href="index.html">Home</a></li> -->
+                <li><a href="signup.html">Sign Up</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="product1page.html">Products</a></li>
+            </ul>
+        </nav>
+        <h1>Welcome to Skincare Essentials</h1>
+    </header>
+    
+    <main>
+        <section class="hero">
+            <img src="image.png" alt="Skincare Products">
+            <div class="hero-text">
+                <h2>Your Beauty, Our Passion</h2>
+                <p>Discover the best skincare products for a glowing complexion.</p>
+                <!-- <a href="product1page.html" class="btn">Shop Now</a> -->
+                <button id="scroll-to-products" class="btn">Shop Now</button>
+            </div>
+        </section>
+        
+        <section class="featured-products">
+            <h2>Featured Products</h2>
+            <div class="product-list">
+                <div class="product-item">
+                    <img src="https://img.freepik.com/free-photo/close-up-body-butter-recipient_23-2148542982.jpg?t=st=1722315201~exp=1722318801~hmac=a47106fb3055b3089369234c282bdcb25ec7dacf02b259741de54c9bba6da56e&w=740" alt="Product 1">
+                    <h3>Product 1</h3>
+                    <p>Rs.2499</p>
+                    <!-- <a href="product1page.html" class="btn">Shop Now</a> -->
+                    <button class="btn buy-now-btn" data-id="1">Buy Now</button>
+                    
+                </div>
+                <div class="product-item">
+                    <img src="https://img.freepik.com/free-vector/night-cosmetic-series-face-skin-care_88138-8.jpg?t=st=1722315283~exp=1722318883~hmac=67ac8a09a95bfc9a23cf180e0d510fbbf694c64ab53718bee119b69222d74b9d&w=826" alt="Product 2">
+                    <h3>Product 2</h3>
+                    <p>Rs.3999</p>
+                    <!-- <a href="product1page.html" class="btn">Shop Now</a> -->
+                    <button class="btn buy-now-btn" data-id="2">Buy Now</button>
+                </div>
+                <div class="product-item">
+                    <img src="https://img.freepik.com/free-vector/summer-skin-care-cosmetics-tropic-vector_88138-288.jpg?t=st=1722315416~exp=1722319016~hmac=8025e60b1140a93f85a23c916b39c1bc718029b16d9a1eff8e1eece4615e0903&w=826" alt="Product 6">
+                    <h3>Product 3</h3>
+                    <p>$39.99</p>
+                    <!-- <a href="product1page.html" class="btn">Shop Now</a> -->
+                    <button class="btn buy-now-btn" data-id="3">Buy Now</button>
+                </div>
+                <div class="product-item">
+                    <img src="https://img.freepik.com/premium-photo/3d-rendered-beauty-products-solid-plain-background_1069963-92417.jpg?w=740" alt="Product 4">
+                    <h3>Product 4</h3>
+                    <p>Rs.2099</p>
+                    <!-- <a href="product1page.html" class="btn">Shop Now</a> -->
+                    <button class="btn buy-now-btn" data-id="4">Buy Now</button>
+                </div>
+                <div class="product-item">
+                    <img src="https://img.freepik.com/free-photo/beauty-skincare-products-bathroom_53876-133303.jpg?t=st=1722315381~exp=1722318981~hmac=a36a8f3f995eb54d59a42beefb74e4d68dc42c6a49099daee3204e2db032503c&w=740" alt="Product 5">
+                    <h3>Product 5</h3>
+                    <p>Rs.2599</p>
+                    <!-- <a href="product1page.html" class="btn">Shop Now</a> -->
+                    <button class="btn buy-now-btn" data-id="5">Buy Now</button>
+
+                </div>
+                <div class="product-item">
+                    <img src="https://img.freepik.com/premium-photo/3d-rendered-beauty-products-solid-plain-background_1069963-92434.jpg?w=740" alt="Product 6">
+                    <h3>Product 6</h3>
+                    <p>Rs.1999</p>
+                    <!-- <a href="product1page.html" class="btn">Shop Now</a> -->
+                    <button class="btn buy-now-btn" data-id="6">Buy Now</button>
+                </div>
+                <div class="product-item">
+                    <img src="https://img.freepik.com/free-photo/organic-cosmetic-product-with-dreamy-aesthetic-fresh-background_23-2151382828.jpg?t=st=1722315455~exp=1722319055~hmac=ef00e1847e093dd6a19d048ebefe05e966c61e6b8d09305da553ab2d58b9802e&w=360" alt="Product 7">
+                    <h3>Product 7</h3>
+                    <p>Rs.1299</p>
+                    <!-- <a href="product1page.html" class="btn">Shop Now</a> -->
+                    <button class="btn buy-now-btn" data-id="7" id="p7">Buy Now</button>
+
+                </div>
+                <div class="product-item">
+                    <img src="https://img.freepik.com/free-photo/beach-skincare-product-still-life_23-2150167960.jpg?t=st=1722315573~exp=1722319173~hmac=51f64ee2217808d43a17f9a687ae1bad0c2c3a2b891e8c545f6417bab9f68749&w=360" alt="Product 8">
+                    <h3>Product 8</h3>
+                    <p>Rs.3999</p>
+                    <!-- <a href="product1page.html" class="btn">Shop Now</a> -->
+                    <button class="btn buy-now-btn" data-id="8">Buy Now</button>
+
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Skincare Essentials. All rights reserved.</p>
+    </footer>
+    <script src="homepage.js"></script>
+</body>
+</html>
